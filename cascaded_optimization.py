@@ -163,13 +163,8 @@ OPTIMIZATIONS = {
         "num_control_points": {
             "0": [6, 12, 24, 48, 96]
         },
-<<<<<<< Updated upstream
-        "num_iters": [5, 5, 5, 5, 5],        
-        "aux_files": ["LORIP45V4_ut_cx_1.obj"],
-=======
         "num_iters": [10, 10, 10, 10, 10],        
         "aux_files": ["LORIP45V2_UTCX_CD_scaled.obj"],
->>>>>>> Stashed changes
         "opt_mesh_idx": 0,
         "threads": 16
     }
