@@ -1,0 +1,3 @@
+i,elastic,inertia,body,contact,friction,damping,pressure,strain_augmented_lagrangian_lagr,periodic_contact,augmented_lagrangian,total_energy
+0,0,0,0,0,0,0,-0.0282688,0,0,0,-0.0282688
+1,0.00923265,3.21386e-05,0,0,0,0,-0.0529408,0,0,0,-0.043676

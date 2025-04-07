@@ -1,0 +1,99 @@
+{
+  "geometry": [
+    {
+      "mesh": "multigrid.msh",
+      "volume_selection": 2,
+      "n_refs": 0,
+      "surface_selection": "multigrid_selection.txt"
+    }
+  ],
+  "contact": {
+    "enabled": false,
+    "friction_coefficient": 0.0
+  },
+  "space": {
+    "discr_order": 2
+  },
+  "solver": {
+    "linear": {
+      "solver": "Eigen::AccelerateLDLT"
+    },
+    "nonlinear": {
+      "line_search": {
+        "method": "RobustArmijo"
+      },
+      "grad_norm": 0.0001
+    }
+  },
+  "time": {
+    "t0": 0,
+    "tend": 4,
+    "time_steps": 40,
+    "quasistatic": false
+  },
+  "boundary_conditions": {
+    "dirichlet_boundary": [
+      {
+        "id": 1,
+        "value": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "pressure_boundary": [
+      {
+        "id": 2,
+        "value": "-80000 * (t/4)"
+      }
+    ]
+  },
+  "materials": [
+    {
+      "id": 5,
+      "type": "MooneyRivlin3Param",
+      "c1": 178571.43,
+      "c2": 89285.71,
+      "c3": 44642.86,
+      "d1": 1.19e-06,
+      "rho": 1000
+    },
+    {
+      "id": 2,
+      "type": "MooneyRivlin3Param",
+      "c1": 138.9,
+      "c2": 342.3,
+      "c3": 4912.0,
+      "d1": 100000.0,
+      "rho": 1000
+    },
+    {
+      "id": 1,
+      "type": "MooneyRivlin3Param",
+      "c1": 138.9,
+      "c2": 342.3,
+      "c3": 4912.0,
+      "d1": 100000.0,
+      "rho": 1000
+    }
+  ],
+  "output": {
+    "log": {
+      "level": "debug"
+    },
+    "paraview": {
+      "vismesh_rel_area": 1000000000.0,
+      "surface": true,
+      "options": {
+        "body_ids": true
+      },
+      "skip_frame": 10,
+      "high_order_mesh": false,
+      "volume": true
+    },
+    "advanced": {
+      "save_time_sequence": true
+    }
+  }
+}

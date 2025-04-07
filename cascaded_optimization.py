@@ -163,8 +163,13 @@ OPTIMIZATIONS = {
         "num_control_points": {
             "0": [6, 12, 24, 48, 96]
         },
+<<<<<<< Updated upstream
         "num_iters": [5, 5, 5, 5, 5],        
         "aux_files": ["LORIP45V4_ut_cx_1.obj"],
+=======
+        "num_iters": [10, 10, 10, 10, 10],        
+        "aux_files": ["LORIP45V2_UTCX_CD_scaled.obj"],
+>>>>>>> Stashed changes
         "opt_mesh_idx": 0,
         "threads": 16
     }
@@ -407,7 +412,8 @@ def main():
     state["output"]["paraview"]["options"]["body_ids"] = True
     if "advanced" not in state["output"]:
         state["output"]["advanced"] = {}
-    state["output"]["advanced"]["save_time_sequence"] = False
+        state["output"]["advanced"]["save_time_sequence"] = False
+
 
     if "output" not in run:
         run["output"] = {}

@@ -1,0 +1,261 @@
+  -- MMG3D, Release 5.8.0 (Oct. 30, 2024) 
+     Copyright (c) Bdx INP/CNRS/Inria/UPMC, 2004-
+     Mar 25 2025 10:17:27
+
+  -- INPUT DATA
+  %% /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/before_remesh.msh OPENED
+  -- DATA READING COMPLETED.     0.024s
+
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+   MODULE MMG3D: 5.8.0 (Oct. 30, 2024)
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+     git branch: master
+     git commit: 4d8232c8aebfed877935d75d4d4a67e850962422
+     git date:   2024-10-29 11:41:45 +0100
+
+
+  -- MMG3DLIB: INPUT DATA
+  --  INPUT DATA COMPLETED.     0.000s
+
+  -- PHASE 1 : ANALYSIS
+
+  -- MESH QUALITY  22530
+     BEST   0.996351  AVRG.   0.674658  WRST.   0.000008 (9742)
+  -- PHASE 1 COMPLETED.     0.017s
+
+  -- PHASE 2 : ISOTROPIC MESHING
+                               9 splitted,        0 collapsed,      709 swapped, 5 iter.
+
+  -- GRADATION : 1.300000 (2.300000)
+                               0 splitted,        1 collapsed,        0 swapped, 5 iter.
+                                                                      0 swapped,     1324 moved, 3 iter. 
+        35034 filtered,     2011 splitted,       93 collapsed,     4246 swapped,     1520 moved, 7 iter.
+                                                                      0 swapped,      429 moved, 4 iter. 
+  -- PHASE 2 COMPLETED.     0.308s
+
+  -- MESH QUALITY  34581
+     BEST   0.995337  AVRG.   0.739556  WRST.   0.219917 (6594)
+
+  -- MESH PACKED UP
+     NUMBER OF VERTICES       7657   CORNERS       22
+     NUMBER OF TETRAHEDRA    34581
+     NUMBER OF EDGES            69   RIDGES        69
+     NUMBER OF TRIANGLES      7138
+
+   MMG3DLIB: ELAPSED TIME  0.332s
+
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+   END OF MODULE MMG3D
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+  -- WRITING DATA FILE /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/after_remesh.msh
+  %% /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/after_remesh.msh OPENED
+  -- WRITING COMPLETED
+
+   ELAPSED TIME  0.372s
+  -- MMG3D, Release 5.8.0 (Oct. 30, 2024) 
+     Copyright (c) Bdx INP/CNRS/Inria/UPMC, 2004-
+     Mar 25 2025 10:17:27
+
+  -- INPUT DATA
+  %% /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/before_remesh.msh OPENED
+  -- DATA READING COMPLETED.     0.029s
+
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+   MODULE MMG3D: 5.8.0 (Oct. 30, 2024)
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+     git branch: master
+     git commit: 4d8232c8aebfed877935d75d4d4a67e850962422
+     git date:   2024-10-29 11:41:45 +0100
+
+
+  -- MMG3DLIB: INPUT DATA
+  --  INPUT DATA COMPLETED.     0.000s
+
+  -- PHASE 1 : ANALYSIS
+
+  -- MESH QUALITY  34581
+     BEST   0.994423  AVRG.   0.651933  WRST.   0.000497 (29978)
+  -- PHASE 1 COMPLETED.     0.026s
+
+  -- PHASE 2 : ISOTROPIC MESHING
+
+  -- GRADATION : 1.300000 (2.300000)
+                                                                      0 swapped,     1451 moved, 3 iter. 
+        30800 filtered,     2025 splitted,      264 collapsed,     3972 swapped,     1536 moved, 7 iter.
+                                                                      0 swapped,      482 moved, 4 iter. 
+  -- PHASE 2 COMPLETED.     0.427s
+
+  -- MESH QUALITY  45200
+     BEST   0.997434  AVRG.   0.750455  WRST.   0.180162 (20571)
+
+  -- MESH PACKED UP
+     NUMBER OF VERTICES       9418   CORNERS       27
+     NUMBER OF TETRAHEDRA    45200
+     NUMBER OF EDGES            94   RIDGES        94
+     NUMBER OF TRIANGLES      7138
+
+   MMG3DLIB: ELAPSED TIME  0.461s
+
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+   END OF MODULE MMG3D
+  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+  -- WRITING DATA FILE /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/after_remesh.msh
+  %% /Users/zhiqi/pneumatic-actuator-design/cervix_inflation/after_remesh.msh OPENED
+  -- WRITING COMPLETED
+
+   ELAPSED TIME  0.508s
+[2025-04-07 13:27:21.187] [adjoint-polyfem] [info] Saving adjoint output to 
+[2025-04-07 13:27:22.484] [polyfem] [info] Saving output to 
+[2025-04-07 13:27:22.485] [polyfem] [info] t0=0, dt=0.1, tend=4
+[2025-04-07 13:27:22.487] [polyfem] [info] Loading mesh ...
+[2025-04-07 13:27:22.781] [polyfem] [info] mesh bb min [[0.1879269293824, 0.0464724349975586, 0.0867225341796875]], max [[0.293111687308954, 0.131123306274414, 0.199839462280273]]
+[2025-04-07 13:27:22.881] [polyfem] [info]  took 0.3941217500000001s
+[2025-04-07 13:27:22.881] [polyfem] [info] Loading obstacles...
+[2025-04-07 13:27:22.881] [polyfem] [info]  took 1.633333333333334e-05s
+[2025-04-07 13:27:22.881] [polyfem] [info] Building not isoparametric basis...
+[2025-04-07 13:27:23.104] [polyfem] [info] Counting flipped elements...
+[2025-04-07 13:27:23.126] [polyfem] [info]  done
+[2025-04-07 13:27:23.127] [polyfem] [debug] Building node mapping...
+[2025-04-07 13:27:23.148] [polyfem] [debug] Done (took 0.02099354166666667s)
+[2025-04-07 13:27:23.148] [polyfem] [info] Building collision mesh...
+[2025-04-07 13:27:23.202] [polyfem] [info] Done!
+[2025-04-07 13:27:23.204] [polyfem] [info] hmin: 0.00024223767282384605
+[2025-04-07 13:27:23.204] [polyfem] [info] hmax: 0.011682463644459972
+[2025-04-07 13:27:23.204] [polyfem] [info] havg: 0.0038597783809804546
+[2025-04-07 13:27:23.204] [polyfem] [info] n_bases 67603
+[2025-04-07 13:27:23.204] [polyfem] [info]  took 0.10257641666666668s
+[2025-04-07 13:27:23.204] [polyfem] [info] flipped elements 0
+[2025-04-07 13:27:23.204] [polyfem] [info] h: 0.011682463644459972
+[2025-04-07 13:27:23.204] [polyfem] [info] n bases: 67603
+[2025-04-07 13:27:23.204] [polyfem] [info] n pressure bases: 0
+[2025-04-07 13:27:23.204] [polyfem] [info] Building cache...
+[2025-04-07 13:27:23.235] [polyfem] [info]  took 0.03151425000000001s
+[2025-04-07 13:27:23.235] [polyfem] [info] Assigning rhs...
+[2025-04-07 13:27:23.235] [polyfem] [info]  took 0.00012641666666666669s
+[2025-04-07 13:27:23.235] [polyfem] [info] Assembling mass mat...
+[2025-04-07 13:27:23.752] [polyfem] [info] average mass 5.509643070334076e-06
+[2025-04-07 13:27:23.753] [polyfem] [info]  took 0.5171326666666668s
+[2025-04-07 13:27:23.753] [polyfem] [info] sparsity: 16339869/41131490481
+[2025-04-07 13:27:23.794] [adjoint-polyfem] [warning] Both in-line-search SLIM and after-line-search SLIM are ON!
+[2025-04-07 13:27:23.812] [polyfem] [error] More than 1 boundary loop! Concatenating and continuing as normal.
+BBW: max_iter: 500
+BBW: eff_max_iter: 500
+BBW: Computing initial weights for 24 handles.
+BBW: Computing weight for handle 1 out of 24.
+BBW: Computing weight for handle 7 out of 24.
+BBW: Computing weight for handle 9 out of 24.
+BBW: Computing weight for handle 3 out of 24.
+BBW: Computing weight for handle 11 out of 24.
+BBW: Computing weight for handle 23 out of 24.
+BBW: Computing weight for handle 13 out of 24.
+BBW: Computing weight for handle 15 out of 24.
+BBW: Computing weight for handle 17 out of 24.
+BBW: Computing weight for handle 21 out of 24.
+BBW: Computing weight for handle 19 out of 24.
+BBW: Computing weight for handle 5 out of 24.
+BBW: Computing weight for handle 12 out of 24.
+BBW: Computing weight for handle 14 out of 24.
+BBW: Computing weight for handle 4 out of 24.
+BBW: Computing weight for handle 6 out of 24.
+BBW: Computing weight for handle 16 out of 24.
+BBW: Computing weight for handle 24 out of 24.
+BBW: Computing weight for handle 10 out of 24.
+BBW: Computing weight for handle 8 out of 24.
+BBW: Computing weight for handle 18 out of 24.
+BBW: Computing weight for handle 2 out of 24.
+BBW: Computing weight for handle 20 out of 24.
+BBW: Computing weight for handle 22 out of 24.
+[2025-04-07 13:27:24.474] [adjoint-polyfem] [trace] Using a characteristic length of 1
+[2025-04-07 13:27:24.489] [polyfem] [info] Building not isoparametric basis...
+[2025-04-07 13:27:24.710] [polyfem] [info] Counting flipped elements...
+[2025-04-07 13:27:24.748] [polyfem] [info]  done
+[2025-04-07 13:27:24.748] [polyfem] [debug] Building node mapping...
+[2025-04-07 13:27:24.768] [polyfem] [debug] Done (took 0.020100458333333338s)
+[2025-04-07 13:27:24.768] [polyfem] [info] Building collision mesh...
+[2025-04-07 13:27:24.827] [polyfem] [info] Done!
+[2025-04-07 13:27:24.829] [polyfem] [info] hmin: 0.0002422376728239558
+[2025-04-07 13:27:24.829] [polyfem] [info] hmax: 0.011682463644459972
+[2025-04-07 13:27:24.829] [polyfem] [info] havg: 0.0038597783809804546
+[2025-04-07 13:27:24.829] [polyfem] [info] n_bases 67603
+[2025-04-07 13:27:24.829] [polyfem] [info]  took 0.10183416666666668s
+[2025-04-07 13:27:24.829] [polyfem] [info] flipped elements 0
+[2025-04-07 13:27:24.829] [polyfem] [info] h: 0.011682463644459972
+[2025-04-07 13:27:24.829] [polyfem] [info] n bases: 67603
+[2025-04-07 13:27:24.829] [polyfem] [info] n pressure bases: 0
+[2025-04-07 13:27:24.988] [polyfem] [info] Building cache...
+[2025-04-07 13:27:25.017] [polyfem] [info]  took 0.028932541666666672s
+[2025-04-07 13:27:25.017] [adjoint-polyfem] [info] Run simulations in serial...
+[2025-04-07 13:27:25.017] [polyfem] [info] Assigning rhs...
+[2025-04-07 13:27:25.017] [polyfem] [info]  took 0.0001591666666666667s
+[2025-04-07 13:27:25.017] [polyfem] [info] Assembling mass mat...
+[2025-04-07 13:27:25.519] [polyfem] [info] average mass 5.5096430703340625e-06
+[2025-04-07 13:27:25.519] [polyfem] [info]  took 0.5015219166666668s
+[2025-04-07 13:27:25.519] [polyfem] [info] sparsity: 16339869/41131490481
+[2025-04-07 13:27:25.519] [polyfem] [info] Solving MooneyRivlin3Param
+[2025-04-07 13:27:31.080] [polyfem] [info] Time sequence of simulation will be written to: ""
+[2025-04-07 13:27:31.296] [polyfem] [warning] Lumped mass matrix ill-conditioned. Setting lumped mass matrix to identity.
+[2025-04-07 13:27:37.111] [polyfem] [debug] Successfully applied constraints conditions; solving in reduced space
+[2025-04-07 13:27:37.129] [polyfem] [debug] Starting SparseNewton with RobustArmijo solve f₀=-0.000282688 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:28:18.343] [polyfem] [debug] [SparseNewton][RobustArmijo] Search direction not a descent direction (‖Δx‖=13.3041; ‖g‖=0.00131112; Δx⋅g=0.00622438≥0); reverting to SparseProjectedNewton
+[2025-04-07 13:28:57.886] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] Search direction not a descent direction (‖Δx‖=13.3041; ‖g‖=0.00131112; Δx⋅g=0.00622438≥0); reverting to SparseRegularizedNewton (reg_weight=1e-08)
+[2025-04-07 13:29:37.374] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=1e-08)][RobustArmijo] Search direction not a descent direction (‖Δx‖=13.3106; ‖g‖=0.00131112; Δx⋅g=0.00622615≥0); reverting to SparseRegularizedNewton (reg_weight=1e-07)
+[2025-04-07 13:30:12.889] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=1e-07)][RobustArmijo] Search direction not a descent direction (‖Δx‖=13.3715; ‖g‖=0.00131112; Δx⋅g=0.00624217≥0); reverting to SparseRegularizedNewton (reg_weight=1e-06)
+[2025-04-07 13:30:48.770] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=1e-06)][RobustArmijo] Search direction not a descent direction (‖Δx‖=14.257; ‖g‖=0.00131112; Δx⋅g=0.00641267≥0); reverting to SparseRegularizedNewton (reg_weight=1e-05)
+[2025-04-07 13:31:24.407] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=1e-05)][RobustArmijo] Search direction not a descent direction (‖Δx‖=129.755; ‖g‖=0.00131112; Δx⋅g=0.00793331≥0); reverting to SparseRegularizedNewton (reg_weight=0.0001)
+[2025-04-07 13:32:00.777] [polyfem] [debug] Line search finished (nan_free_step_size=0.001953125 collision_free_step_size=0.001953125 descent_step_size=0.0009765625 final_step_size=0.0009765625)
+[2025-04-07 13:32:00.780] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] iters=0 Δf=nan ‖∇f‖=0.00131112 ‖Δx‖=20.3592 Δx⋅∇f(x)=-0.00658828 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:32:41.068] [polyfem] [debug] Line search finished (nan_free_step_size=0.03125 collision_free_step_size=0.03125 descent_step_size=0.03125 final_step_size=0.03125)
+[2025-04-07 13:32:41.069] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] iters=1 Δf=3.5518e-06 ‖∇f‖=0.00507375 ‖Δx‖=5.43287 Δx⋅∇f(x)=-0.00278156 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:33:21.454] [polyfem] [debug] Line search finished (nan_free_step_size=0.25 collision_free_step_size=0.25 descent_step_size=0.25 final_step_size=0.25)
+[2025-04-07 13:33:21.456] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] iters=2 Δf=5.17339e-05 ‖∇f‖=0.0199224 ‖Δx‖=0.435614 Δx⋅∇f(x)=-0.000245477 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:34:01.838] [polyfem] [debug] Line search finished (nan_free_step_size=0.03125 collision_free_step_size=0.03125 descent_step_size=0.03125 final_step_size=0.03125)
+[2025-04-07 13:34:01.840] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] iters=3 Δf=5.06622e-05 ‖∇f‖=0.0159372 ‖Δx‖=0.153656 Δx⋅∇f(x)=-8.65625e-05 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:34:42.556] [polyfem] [debug] Line search finished (nan_free_step_size=0.5 collision_free_step_size=0.5 descent_step_size=0.5 final_step_size=0.5)
+[2025-04-07 13:34:42.558] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] iters=4 Δf=2.41072e-06 ‖∇f‖=0.0245252 ‖Δx‖=0.146132 Δx⋅∇f(x)=-8.20274e-05 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:35:23.033] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:35:23.034] [polyfem] [debug] [SparseRegularizedNewton (reg_weight=0.0001)][RobustArmijo] SparseRegularizedNewton (reg_weight=0.0001) was successful for 5 iterations; resetting to SparseNewton
+[2025-04-07 13:35:23.036] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=5 Δf=3.1412e-05 ‖∇f‖=0.00847855 ‖Δx‖=0.0721659 Δx⋅∇f(x)=-2.38115e-05 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:36:03.626] [polyfem] [debug] Line search finished (nan_free_step_size=0.25 collision_free_step_size=0.25 descent_step_size=0.125 final_step_size=0.125)
+[2025-04-07 13:36:03.627] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=6 Δf=1.28754e-05 ‖∇f‖=0.00223302 ‖Δx‖=0.0823732 Δx⋅∇f(x)=-2.42379e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:36:44.602] [polyfem] [debug] Line search finished (nan_free_step_size=0.25 collision_free_step_size=0.25 descent_step_size=0.25 final_step_size=0.25)
+[2025-04-07 13:36:44.603] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=7 Δf=2.67257e-07 ‖∇f‖=0.00194843 ‖Δx‖=0.0697717 Δx⋅∇f(x)=-1.92008e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:37:25.383] [polyfem] [debug] Line search finished (nan_free_step_size=0.125 collision_free_step_size=0.125 descent_step_size=0.125 final_step_size=0.125)
+[2025-04-07 13:37:25.385] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=8 Δf=3.40324e-07 ‖∇f‖=0.00314208 ‖Δx‖=0.0541794 Δx⋅∇f(x)=-1.38378e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:38:06.335] [polyfem] [debug] Line search finished (nan_free_step_size=0.5 collision_free_step_size=0.5 descent_step_size=0.25 final_step_size=0.25)
+[2025-04-07 13:38:06.337] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=9 Δf=3.94425e-08 ‖∇f‖=0.00345726 ‖Δx‖=0.045945 Δx⋅∇f(x)=-1.24677e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:38:47.314] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=0.5 final_step_size=0.5)
+[2025-04-07 13:38:47.316] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=10 Δf=1.98436e-07 ‖∇f‖=0.00272795 ‖Δx‖=0.033865 Δx⋅∇f(x)=-9.3488e-07 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:39:28.771] [polyfem] [debug] Line search finished (nan_free_step_size=0.5 collision_free_step_size=0.5 descent_step_size=0.5 final_step_size=0.5)
+[2025-04-07 13:39:28.773] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=11 Δf=3.41079e-07 ‖∇f‖=0.00153242 ‖Δx‖=0.0172694 Δx⋅∇f(x)=-3.457e-07 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:40:09.411] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:40:09.413] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=12 Δf=9.41371e-08 ‖∇f‖=0.00207766 ‖Δx‖=0.00848479 Δx⋅∇f(x)=-1.90526e-07 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:40:49.614] [polyfem] [debug] [SparseNewton][RobustArmijo] Search direction not a descent direction (‖Δx‖=0.00215399; ‖g‖=0.0006539; Δx⋅g=6.74161e-09≥0); reverting to SparseProjectedNewton
+[2025-04-07 13:41:30.028] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:41:30.029] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=13 Δf=1.03563e-07 ‖∇f‖=0.0006539 ‖Δx‖=0.00057726 Δx⋅∇f(x)=-4.17822e-08 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:42:10.188] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:42:10.190] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=14 Δf=2.7247e-08 ‖∇f‖=0.000215576 ‖Δx‖=0.000251711 Δx⋅∇f(x)=-1.39573e-08 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:42:50.518] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:42:50.520] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=15 Δf=9.09452e-09 ‖∇f‖=7.40849e-05 ‖Δx‖=0.000181627 Δx⋅∇f(x)=-5.18156e-09 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:43:30.955] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:43:30.956] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=16 Δf=3.31814e-09 ‖∇f‖=2.65668e-05 ‖Δx‖=0.000146271 Δx⋅∇f(x)=-1.88295e-09 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:44:11.282] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:44:11.283] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=17 Δf=1.14096e-09 ‖∇f‖=1.11892e-05 ‖Δx‖=8.00606e-05 Δx⋅∇f(x)=-4.02289e-10 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:44:11.352] [polyfem] [info] [SparseProjectedNewton][RobustArmijo] Finished: Gradient vector norm too small took 994.242s (iters=18 Δf=2.29587e-10 ‖∇f‖=3.37172e-06 ‖Δx‖=nan Δx⋅∇f(x)=nan) (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:44:11.352] [polyfem] [debug] [[35mtiming[0m] f: 4.40e-01s, grad_f: 1.48e+00s, update_direction: 9.88e+02s, line_search: 4.08e+00s, constraint_set_update: 8.85e-04s
+[2025-04-07 13:44:11.352] [polyfem] [debug] [[35mtiming[0m][SparseNewton] assembly: 3.94e+01s; linear_solve: 3.26e+02s
+[2025-04-07 13:44:11.352] [polyfem] [debug] [[35mtiming[0m][SparseProjectedNewton] assembly: 2.50e+01s; linear_solve: 2.15e+02s
+[2025-04-07 13:44:11.352] [polyfem] [debug] [[35mtiming[0m][SparseRegularizedNewton (reg_weight=1e-08)] assembly: 2.57e+01s; linear_solve: 3.57e+02s
+[2025-04-07 13:44:11.352] [polyfem] [debug] [[35mtiming[0m][RobustArmijo] constraint_set_update 1.31e-02s, checking_for_nan_inf 1.58e+00s, broad_phase_ccd 2.47e-02s, narrow_phase_ccd 2.36e-02s, classical_line_search 1.10e+00s
+[2025-04-07 13:44:15.534] [polyfem] [info] 1/40  t=0.1
+[2025-04-07 13:44:15.698] [polyfem] [debug] Successfully applied constraints conditions; solving in reduced space
+[2025-04-07 13:44:15.715] [polyfem] [debug] Starting SparseNewton with RobustArmijo solve f₀=-0.000966167 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:44:55.963] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:44:55.964] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=0 Δf=nan ‖∇f‖=0.00172398 ‖Δx‖=0.29098 Δx⋅∇f(x)=-0.000166555 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:45:35.724] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:45:35.725] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=1 Δf=3.02767e-05 ‖∇f‖=0.0111795 ‖Δx‖=0.058449 Δx⋅∇f(x)=-5.70956e-05 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-07 13:46:15.969] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-07 13:46:15.970] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=2 Δf=3.16691e-05 ‖∇f‖=0.001714 ‖Δx‖=0.133309 Δx⋅∇f(x)=-2.68109e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)

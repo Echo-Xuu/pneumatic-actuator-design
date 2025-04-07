@@ -1,0 +1,44 @@
+[2025-04-04 17:03:19.220] [adjoint-polyfem] [debug] Starting L-BFGS with Backtracking solve f₀=25.6958 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 17:07:15.500] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=0 f=25.6958 ‖∇f‖=2258.05
+[2025-04-04 18:19:18.598] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=0 Δf=nan ‖∇f‖=2258.05 ‖Δx‖=2258.05 Δx⋅∇f(x)=-5.09878e+06 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 18:23:08.640] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=1 f=17.6589 ‖∇f‖=1362.04
+[2025-04-04 19:05:13.701] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=1 Δf=8.03686 ‖∇f‖=1362.04 ‖Δx‖=0.00656079 Δx⋅∇f(x)=-8.93226 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 19:09:03.853] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=2 f=17.2675 ‖∇f‖=1309.17
+[2025-04-04 19:51:55.284] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=2 Δf=0.391391 ‖∇f‖=1309.17 ‖Δx‖=0.0144974 Δx⋅∇f(x)=-17.9569 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 19:55:49.807] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=3 f=17.1145 ‖∇f‖=1293.71
+[2025-04-04 20:38:40.651] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=3 Δf=0.153074 ‖∇f‖=1293.71 ‖Δx‖=0.00945818 Δx⋅∇f(x)=-12.1444 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 20:42:34.027] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=4 f=17.0698 ‖∇f‖=1289.3
+[2025-04-04 21:25:24.859] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=4 Δf=0.0446387 ‖∇f‖=1289.3 ‖Δx‖=0.0264261 Δx⋅∇f(x)=-33.3483 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 21:29:18.494] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=5 f=17.0661 ‖∇f‖=1288.55
+[2025-04-04 22:27:42.779] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=5 Δf=0.00374468 ‖∇f‖=1288.55 ‖Δx‖=0.0103622 Δx⋅∇f(x)=-13.0636 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 22:31:32.416] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=6 f=17.0646 ‖∇f‖=1288.26
+[2025-04-04 23:13:45.069] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=6 Δf=0.00150116 ‖∇f‖=1288.26 ‖Δx‖=0.0119179 Δx⋅∇f(x)=-14.8747 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-04 23:17:37.251] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=7 f=17.0637 ‖∇f‖=1288.09
+[2025-04-05 00:00:14.506] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=7 Δf=0.000862122 ‖∇f‖=1288.09 ‖Δx‖=0.0136323 Δx⋅∇f(x)=-16.7677 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 00:04:06.601] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=8 f=17.0635 ‖∇f‖=1288.04
+[2025-04-05 00:46:40.899] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=8 Δf=0.000243569 ‖∇f‖=1288.04 ‖Δx‖=0.0155039 Δx⋅∇f(x)=-18.7692 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 00:50:33.695] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=9 f=17.0629 ‖∇f‖=1287.94
+[2025-04-05 02:08:10.498] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=9 Δf=0.000547207 ‖∇f‖=1287.94 ‖Δx‖=0.0176462 Δx⋅∇f(x)=-20.9959 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 02:08:10.498] [adjoint-polyfem] [error] [L-BFGS][Backtracking] Reached iteration limit (limit=10)
+[2025-04-05 03:09:16.391] [adjoint-polyfem] [debug] Starting L-BFGS with Backtracking solve f₀=17.1566 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 03:21:30.454] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=0 f=17.1566 ‖∇f‖=1139.43
+[2025-04-05 05:17:37.686] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=0 Δf=nan ‖∇f‖=1139.43 ‖Δx‖=1139.43 Δx⋅∇f(x)=-1.29831e+06 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 05:29:51.573] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=1 f=13.1097 ‖∇f‖=780.346
+[2025-04-05 11:38:00.915] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=1 Δf=4.04687 ‖∇f‖=780.346 ‖Δx‖=0.00985162 Δx⋅∇f(x)=-7.62143 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 11:50:03.926] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=2 f=12.2744 ‖∇f‖=711.129
+[2025-04-05 14:00:24.868] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=2 Δf=0.835312 ‖∇f‖=711.129 ‖Δx‖=0.0162491 Δx⋅∇f(x)=-11.3386 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 14:12:21.762] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=3 f=9.70466 ‖∇f‖=519.754
+[2025-04-05 16:26:14.006] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=3 Δf=2.56975 ‖∇f‖=519.754 ‖Δx‖=0.0109757 Δx⋅∇f(x)=-5.59644 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 16:38:15.662] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=4 f=9.10356 ‖∇f‖=471.141
+[2025-04-05 18:37:23.308] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=4 Δf=0.601106 ‖∇f‖=471.141 ‖Δx‖=0.0132549 Δx⋅∇f(x)=-6.18 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 18:49:27.179] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=5 f=7.70751 ‖∇f‖=372.973
+[2025-04-05 20:39:37.436] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=5 Δf=1.39605 ‖∇f‖=372.973 ‖Δx‖=0.0131518 Δx⋅∇f(x)=-4.78729 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 20:51:35.433] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=6 f=7.12472 ‖∇f‖=338.275
+[2025-04-05 22:41:02.342] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=6 Δf=0.582783 ‖∇f‖=338.275 ‖Δx‖=0.0216967 Δx⋅∇f(x)=-7.04149 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-05 22:52:59.204] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=7 f=6.43605 ‖∇f‖=284.638
+[2025-04-06 00:40:27.977] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=7 Δf=0.688669 ‖∇f‖=284.638 ‖Δx‖=0.0147295 Δx⋅∇f(x)=-3.97236 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-06 02:10:35.886] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=8 f=6.24653 ‖∇f‖=274.54
+[2025-04-06 09:31:16.641] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=8 Δf=0.189519 ‖∇f‖=274.54 ‖Δx‖=0.0245648 Δx⋅∇f(x)=-6.40534 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-06 10:05:05.227] [adjoint-polyfem] [trace] [L-BFGS][Backtracking] pre LS iter=9 f=6.07172 ‖∇f‖=261.517
+[2025-04-06 12:32:55.326] [adjoint-polyfem] [debug] [L-BFGS][Backtracking] iters=9 Δf=0.17481 ‖∇f‖=261.517 ‖Δx‖=0.0190241 Δx⋅∇f(x)=-4.71465 (stopping criteria: iters=10 Δf=0 ‖∇f‖=1e-06 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-06 12:32:55.326] [adjoint-polyfem] [error] [L-BFGS][Backtracking] Reached iteration limit (limit=10)
