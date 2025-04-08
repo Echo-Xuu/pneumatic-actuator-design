@@ -156,8 +156,8 @@ OPTIMIZATIONS = {
         "opt_mesh_idx": 0,
         "threads": 16
     },
-    "cervix_inflation": {
-        "base_path": "cervix_inflation",
+    "cervix_inflation_EX": {
+        "base_path": "cervix_inflation_EX",
         "state_path": "state_MR_Conradlow.json",
         "run_path": "run_MR_Conradlow.json",
         "num_control_points": {
