@@ -156,15 +156,15 @@ OPTIMIZATIONS = {
         "opt_mesh_idx": 0,
         "threads": 16
     },
-    "cervix_inflation_EX": {
-        "base_path": "cervix_inflation_EX",
+    "cervix_inflation_EX_UD1": {
+        "base_path": "cervix_inflation_EX_UD1",
         "state_path": "state_MR_Conradlow.json",
         "run_path": "run_MR_Conradlow.json",
         "num_control_points": {
             "0": [6, 12, 24, 48, 96]
         },
         "num_iters": [10, 10, 10, 10, 10],        
-        "aux_files": ["LORIP45V2_UTCX_CD_scaled.obj"],
+        "aux_files": ["LORIP45V2_UTCX_CD_UD1_scaled.obj"],
         "opt_mesh_idx": 0,
         "threads": 16
     }

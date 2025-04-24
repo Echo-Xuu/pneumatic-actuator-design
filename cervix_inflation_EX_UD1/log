@@ -1,0 +1,136 @@
+[2025-04-24 16:01:55.086] [adjoint-polyfem] [info] Saving adjoint output to 
+[2025-04-24 16:01:57.076] [polyfem] [info] Saving output to 
+[2025-04-24 16:01:57.076] [polyfem] [info] t0=0, dt=0.1, tend=4
+[2025-04-24 16:01:57.077] [polyfem] [info] Loading mesh ...
+[2025-04-24 16:01:57.420] [polyfem] [info] mesh bb min [[0.015442260779190007, 0.00011169327663812303, 0.030062865086495066]], max [[0.14447901916503905, 0.09476293182373047, 0.1431916846492276]]
+[2025-04-24 16:01:57.477] [polyfem] [info]  took 0.39949204166666674s
+[2025-04-24 16:01:57.478] [polyfem] [info] Loading obstacles...
+[2025-04-24 16:01:57.479] [polyfem] [info]  took 3.5958333333333345e-05s
+[2025-04-24 16:01:57.479] [polyfem] [info] Building not isoparametric basis...
+[2025-04-24 16:01:57.579] [polyfem] [info] Counting flipped elements...
+[2025-04-24 16:01:57.589] [polyfem] [info]  done
+[2025-04-24 16:01:57.589] [polyfem] [debug] Building node mapping...
+[2025-04-24 16:01:57.599] [polyfem] [debug] Done (took 0.010134583333333336s)
+[2025-04-24 16:01:57.599] [polyfem] [info] Building collision mesh...
+[2025-04-24 16:01:57.669] [polyfem] [info] Done!
+[2025-04-24 16:01:57.670] [polyfem] [info] hmin: 0.0009512693035638155
+[2025-04-24 16:01:57.670] [polyfem] [info] hmax: 0.012763587208390713
+[2025-04-24 16:01:57.670] [polyfem] [info] havg: 0.0051881976845518105
+[2025-04-24 16:01:57.670] [polyfem] [info] n_bases 32670
+[2025-04-24 16:01:57.670] [polyfem] [info]  took 0.04961758333333335s
+[2025-04-24 16:01:57.670] [polyfem] [info] flipped elements 0
+[2025-04-24 16:01:57.670] [polyfem] [info] h: 0.012763587208390713
+[2025-04-24 16:01:57.670] [polyfem] [info] n bases: 32670
+[2025-04-24 16:01:57.670] [polyfem] [info] n pressure bases: 0
+[2025-04-24 16:01:57.670] [polyfem] [info] Building cache...
+[2025-04-24 16:01:57.684] [polyfem] [info]  took 0.013564583333333336s
+[2025-04-24 16:01:57.684] [polyfem] [info] Assigning rhs...
+[2025-04-24 16:01:57.684] [polyfem] [info]  took 7.650000000000002e-05s
+[2025-04-24 16:01:57.684] [polyfem] [info] Assembling mass mat...
+[2025-04-24 16:01:57.946] [polyfem] [info] average mass 8.165629428688085e-06
+[2025-04-24 16:01:57.946] [polyfem] [info]  took 0.2622392916666667s
+[2025-04-24 16:01:57.946] [polyfem] [info] sparsity: 7166502/9605960100
+[2025-04-24 16:01:58.098] [adjoint-polyfem] [warning] Both in-line-search SLIM and after-line-search SLIM are ON!
+[2025-04-24 16:01:58.098] [adjoint-polyfem] [error] [shape] Indexing size and output size of the Parametrization do not match! 4875 vs 5112
+[2025-04-24 16:02:34.772] [adjoint-polyfem] [info] Saving adjoint output to 
+[2025-04-24 16:02:36.601] [polyfem] [info] Saving output to 
+[2025-04-24 16:02:36.601] [polyfem] [info] t0=0, dt=0.1, tend=4
+[2025-04-24 16:02:36.603] [polyfem] [info] Loading mesh ...
+[2025-04-24 16:02:36.917] [polyfem] [info] mesh bb min [[0.015442260779190007, 0.00011169327663812303, 0.030062865086495066]], max [[0.14447901916503905, 0.09476293182373047, 0.1431916846492276]]
+[2025-04-24 16:02:36.981] [polyfem] [info]  took 0.3776314166666668s
+[2025-04-24 16:02:36.981] [polyfem] [info] Loading obstacles...
+[2025-04-24 16:02:36.981] [polyfem] [info]  took 1.6458333333333338e-05s
+[2025-04-24 16:02:36.981] [polyfem] [info] Building not isoparametric basis...
+[2025-04-24 16:02:37.097] [polyfem] [info] Counting flipped elements...
+[2025-04-24 16:02:37.106] [polyfem] [info]  done
+[2025-04-24 16:02:37.106] [polyfem] [debug] Building node mapping...
+[2025-04-24 16:02:37.116] [polyfem] [debug] Done (took 0.010057375000000002s)
+[2025-04-24 16:02:37.116] [polyfem] [info] Building collision mesh...
+[2025-04-24 16:02:37.237] [polyfem] [info] Done!
+[2025-04-24 16:02:37.239] [polyfem] [info] hmin: 0.0009512693035638155
+[2025-04-24 16:02:37.239] [polyfem] [info] hmax: 0.012763587208390713
+[2025-04-24 16:02:37.239] [polyfem] [info] havg: 0.0051881976845518105
+[2025-04-24 16:02:37.239] [polyfem] [info] n_bases 32670
+[2025-04-24 16:02:37.239] [polyfem] [info]  took 0.06472262500000002s
+[2025-04-24 16:02:37.239] [polyfem] [info] flipped elements 0
+[2025-04-24 16:02:37.239] [polyfem] [info] h: 0.012763587208390713
+[2025-04-24 16:02:37.239] [polyfem] [info] n bases: 32670
+[2025-04-24 16:02:37.239] [polyfem] [info] n pressure bases: 0
+[2025-04-24 16:02:37.239] [polyfem] [info] Building cache...
+[2025-04-24 16:02:37.258] [polyfem] [info]  took 0.018735458333333337s
+[2025-04-24 16:02:37.258] [polyfem] [info] Assigning rhs...
+[2025-04-24 16:02:37.258] [polyfem] [info]  took 0.00013358333333333337s
+[2025-04-24 16:02:37.258] [polyfem] [info] Assembling mass mat...
+[2025-04-24 16:02:37.542] [polyfem] [info] average mass 8.165629428688085e-06
+[2025-04-24 16:02:37.542] [polyfem] [info]  took 0.28390775000000007s
+[2025-04-24 16:02:37.542] [polyfem] [info] sparsity: 7166502/9605960100
+[2025-04-24 16:02:37.601] [adjoint-polyfem] [warning] Both in-line-search SLIM and after-line-search SLIM are ON!
+[2025-04-24 16:02:37.617] [polyfem] [error] More than 1 boundary loop! Concatenating and continuing as normal.
+BBW: max_iter: 500
+BBW: eff_max_iter: 500
+BBW: Computing initial weights for 6 handles.
+BBW: Computing weight for handle 1 out of 6.
+BBW: Computing weight for handle 2 out of 6.
+BBW: Computing weight for handle 3 out of 6.
+BBW: Computing weight for handle 4 out of 6.
+BBW: Computing weight for handle 5 out of 6.
+BBW: Computing weight for handle 6 out of 6.
+[2025-04-24 16:02:38.212] [adjoint-polyfem] [trace] Using a characteristic length of 1
+[2025-04-24 16:02:38.220] [polyfem] [info] Building not isoparametric basis...
+[2025-04-24 16:02:38.325] [polyfem] [info] Counting flipped elements...
+[2025-04-24 16:02:38.336] [polyfem] [info]  done
+[2025-04-24 16:02:38.336] [polyfem] [debug] Building node mapping...
+[2025-04-24 16:02:38.347] [polyfem] [debug] Done (took 0.010828375000000003s)
+[2025-04-24 16:02:38.347] [polyfem] [info] Building collision mesh...
+[2025-04-24 16:02:38.421] [polyfem] [info] Done!
+[2025-04-24 16:02:38.422] [polyfem] [info] hmin: 0.0009512693035638155
+[2025-04-24 16:02:38.422] [polyfem] [info] hmax: 0.012763587208390709
+[2025-04-24 16:02:38.422] [polyfem] [info] havg: 0.005188197684551809
+[2025-04-24 16:02:38.422] [polyfem] [info] n_bases 32670
+[2025-04-24 16:02:38.422] [polyfem] [info]  took 0.04889504166666668s
+[2025-04-24 16:02:38.422] [polyfem] [info] flipped elements 0
+[2025-04-24 16:02:38.422] [polyfem] [info] h: 0.012763587208390709
+[2025-04-24 16:02:38.422] [polyfem] [info] n bases: 32670
+[2025-04-24 16:02:38.422] [polyfem] [info] n pressure bases: 0
+[2025-04-24 16:02:38.525] [polyfem] [info] Building cache...
+[2025-04-24 16:02:38.565] [polyfem] [info]  took 0.03987925000000001s
+[2025-04-24 16:02:38.565] [adjoint-polyfem] [info] Run simulations in serial...
+[2025-04-24 16:02:38.565] [polyfem] [info] Assigning rhs...
+[2025-04-24 16:02:38.565] [polyfem] [info]  took 0.00012641666666666669s
+[2025-04-24 16:02:38.565] [polyfem] [info] Assembling mass mat...
+[2025-04-24 16:02:38.866] [polyfem] [info] average mass 8.165629428688062e-06
+[2025-04-24 16:02:38.866] [polyfem] [info]  took 0.3013351250000001s
+[2025-04-24 16:02:38.866] [polyfem] [info] sparsity: 7166502/9605960100
+[2025-04-24 16:02:38.866] [polyfem] [info] Solving MooneyRivlin3Param
+[2025-04-24 16:02:43.158] [polyfem] [info] Time sequence of simulation will be written to: ""
+[2025-04-24 16:02:43.303] [polyfem] [warning] Lumped mass matrix ill-conditioned. Setting lumped mass matrix to identity.
+[2025-04-24 16:02:47.700] [polyfem] [debug] Successfully applied constraints conditions; solving in reduced space
+[2025-04-24 16:02:47.754] [polyfem] [debug] Starting SparseNewton with RobustArmijo solve f₀=-0.00139089 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:02:53.135] [polyfem] [debug] Line search finished (nan_free_step_size=0.125 collision_free_step_size=0.125 descent_step_size=0.0625 final_step_size=0.0625)
+[2025-04-24 16:02:53.136] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=0 Δf=nan ‖∇f‖=0.00166127 ‖Δx‖=9.34321 Δx⋅∇f(x)=-0.0052743 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:02:57.149] [polyfem] [debug] [SparseNewton][RobustArmijo] Search direction not a descent direction (‖Δx‖=3208.9; ‖g‖=0.0284802; Δx⋅g=0.0370053≥0); reverting to SparseProjectedNewton
+[2025-04-24 16:03:02.194] [polyfem] [debug] Line search finished (nan_free_step_size=0.5 collision_free_step_size=0.5 descent_step_size=0.25 final_step_size=0.25)
+[2025-04-24 16:03:02.194] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=1 Δf=0.000230798 ‖∇f‖=0.0284802 ‖Δx‖=1.55901 Δx⋅∇f(x)=-0.000882651 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:06.529] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:06.531] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=2 Δf=0.000128183 ‖∇f‖=0.0247473 ‖Δx‖=0.641848 Δx⋅∇f(x)=-0.000166196 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:10.869] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:10.870] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=3 Δf=5.16319e-05 ‖∇f‖=0.0141271 ‖Δx‖=0.168797 Δx⋅∇f(x)=-6.3213e-05 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:15.526] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:15.527] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=4 Δf=3.21692e-05 ‖∇f‖=0.00240653 ‖Δx‖=0.42616 Δx⋅∇f(x)=-6.10627e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:20.420] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:20.421] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] iters=5 Δf=1.06564e-06 ‖∇f‖=0.00391165 ‖Δx‖=0.0176079 Δx⋅∇f(x)=-4.41627e-06 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:24.928] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:24.929] [polyfem] [debug] [SparseProjectedNewton][RobustArmijo] SparseProjectedNewton was successful for 5 iterations; resetting to SparseNewton
+[2025-04-24 16:03:24.930] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=6 Δf=2.2252e-06 ‖∇f‖=0.000125031 ‖Δx‖=0.011244 Δx⋅∇f(x)=-1.59303e-08 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:29.955] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:29.956] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=7 Δf=8.59397e-09 ‖∇f‖=3.23355e-05 ‖Δx‖=0.00134518 Δx⋅∇f(x)=-5.86789e-10 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:30.003] [polyfem] [info] [SparseNewton][RobustArmijo] Finished: Gradient vector norm too small took 42.3017s (iters=8 Δf=3.04801e-10 ‖∇f‖=3.42199e-06 ‖Δx‖=nan Δx⋅∇f(x)=nan) (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:30.003] [polyfem] [debug] [[35mtiming[0m] f: 3.01e-01s, grad_f: 7.07e-01s, update_direction: 3.97e+01s, line_search: 1.48e+00s, constraint_set_update: 3.24e-04s
+[2025-04-24 16:03:30.003] [polyfem] [debug] [[35mtiming[0m][SparseNewton] assembly: 9.08e+00s; linear_solve: 4.71e+00s
+[2025-04-24 16:03:30.003] [polyfem] [debug] [[35mtiming[0m][SparseProjectedNewton] assembly: 1.72e+01s; linear_solve: 8.67e+00s
+[2025-04-24 16:03:30.003] [polyfem] [debug] [[35mtiming[0m][RobustArmijo] constraint_set_update 3.26e-03s, checking_for_nan_inf 3.99e-01s, broad_phase_ccd 6.55e-03s, narrow_phase_ccd 5.97e-03s, classical_line_search 3.58e-01s
+[2025-04-24 16:03:33.170] [polyfem] [info] 1/40  t=0.1
+[2025-04-24 16:03:33.467] [polyfem] [debug] Successfully applied constraints conditions; solving in reduced space
+[2025-04-24 16:03:33.519] [polyfem] [debug] Starting SparseNewton with RobustArmijo solve f₀=-0.00392337 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
+[2025-04-24 16:03:37.976] [polyfem] [debug] Line search finished (nan_free_step_size=1 collision_free_step_size=1 descent_step_size=1 final_step_size=1)
+[2025-04-24 16:03:37.976] [polyfem] [debug] [SparseNewton][RobustArmijo] iters=0 Δf=nan ‖∇f‖=0.00207731 ‖Δx‖=0.80515 Δx⋅∇f(x)=-0.000428418 (stopping criteria: iters=500 Δf=0 ‖∇f‖=1e-05 ‖Δx‖=0 Δx⋅∇f(x)=-0)
